@@ -1,0 +1,106 @@
+<!-- simple parallax tests -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    height: 100%;
+  }
+
+  h1{
+    font-size: 2.4em;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+  }
+
+  h2{
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  p{
+    font-size: 1.07em;
+    letter-spacing: 2.2px;
+    line-height: 1.6;
+    font-weight: 100;
+  }
+
+  div{
+    display: block;
+  }
+
+  .primary{
+    background-image: url("./img/christine-siracusa-363257.jpg");
+    min-height: 90%;
+  }
+
+  .secondary{
+    background-image: url("./img/lionel-gustave-171881.jpg");
+    min-height: 100%;
+  }
+
+  .tertiary{
+    background-image: url("./img/natasha-bhogal-482738.jpg");
+    min-height: 100%;
+  }
+
+  .BG{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headline{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  .content{
+    display: block;
+    text-align: justify;
+    padding: 50px 80px;
+  }
+
+  .dark{
+    background-color: #222;
+    color: white;
+  }
+
+  .light{
+    background-color: #FFF;
+    color: #7E7E7E;
+  }
+  </style>
+  <script></script>
+</head>
+<body>
+  <div class="BG primary">
+    <div class="headline"><h1>It's Taco Time</h1></div>
+  </div>
+  <div class="content dark">
+      <h2>How About Some Tacos, Friend?</h2>
+      <p>Every day is taco ipsum tuesday. How bout a gosh darn quesadilla? Black or pinto beans? Give me tacos, or give me death. You see, the refried beans are really just the adhesive necessary to apply the soft tortilla to the hard taco shell. CARNE ASADA!! I’d have to say, those tacos are on fleek. CARNITAS!! How do you feel about hard shelled tacos? How bout a gosh darn quesadilla? Add in a few el Pastor with guac and diced onions. Make it a double there pal. Fish tacos with cabbage slaw and a side of chips and guac.</p>
+  </div>
+  <div class="BG secondary">
+    <div class="headline"><h1>Look At That Fuckin' Hominy!</h1></div>
+  </div>
+  <div class="content light">
+      <h2>Maybe Some Lovely Tortillas?</h2>
+      <p>It’s taco time all the time. Make it a double there pal. Say taco one more time. It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business. Can you put some peppers and onions on that? CARNITAS!! Flour or corn tortillas? I’d have to say, those tacos are on fleek. Does guac cost extra? I’ve been following that taco truck around all day.</p>
+  </div>
+  <div class="BG tertiary">
+    <div class="headline dark"><h1>Those Are My Tacos, <br /> Nacho Tacos!</h1></div>
+  </div>
+</body>
+</html>
